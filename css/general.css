@@ -1,0 +1,93 @@
+:root {
+  --main-bcg: #ff6b81;
+  --secondary-bcg: #f9f9f9;
+  --heading-color: #081828;
+  --subheading-color: #888888;
+  --shadow-color: #eeeeee;
+  --secondary-text-color: #d2d6dc;
+}
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: var(--main-bcg);
+}
+
+/*-************************-*/
+/* General Reusable Components */
+/*-************************-*/
+.container {
+  width: 100%;
+  padding: 0 1.6rem;
+}
+ul {
+  list-style-type: none;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.subheading {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--main-bcg);
+  margin-bottom: 0.8rem;
+}
+.secondary-heading {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--heading-color);
+  line-height: 3.2rem;
+  letter-spacing: -0.5px;
+}
+.subheading-text {
+  font-size: 1.3rem;
+  color: var(--subheading-color);
+  line-height: 1.6;
+}
+.grid {
+  display: grid;
+}
+.grid--features {
+  grid-template-columns: 1fr;
+}
+.grid--overview {
+  grid-template-columns: 1fr;
+  gap: 5rem;
+}
+.grid--pricing {
+  grid-template-columns: 1fr;
+  gap: 2.4rem;
+}
+.grid--team1 {
+  grid-template-columns: 1fr;
+  gap: 2.4rem;
+}
+.grid--footer {
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+.grid--options {
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}

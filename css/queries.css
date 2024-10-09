@@ -1,0 +1,282 @@
+/*-************************-*/
+/* above 425px and below 768px (26em phones and largeones) */
+/*-************************-*/
+@media (min-width: 26em) {
+  .container {
+    padding: 0 3.2rem;
+  }
+  .section-hero {
+    padding: 4.8rem 0 6rem;
+  }
+  .primary-heading {
+    font-size: 3.2rem;
+  }
+  .features {
+    padding: 6rem 0;
+  }
+}
+
+@media (min-width: 39em) {
+  .grid--features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*-************************-*/
+/* above 768px (48em tablets) */
+/*-************************-*/
+@media (min-width: 48em) {
+  .container {
+    padding: 0 6.4rem;
+  }
+  .primary-heading {
+    font-size: 3.6rem;
+  }
+  .hero-paragraph {
+    font-size: 1.4rem;
+  }
+  .link-hero span {
+    font-size: 1.6rem;
+  }
+  .subheading {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+  .secondary-heading {
+    font-size: 2.8rem;
+  }
+  .subheading-text {
+    font-size: 1.4rem;
+  }
+  .feature-icon {
+    width: 6rem;
+    height: 6rem;
+  }
+  .tertiary-heading {
+    font-size: 2.2rem;
+  }
+  .percentages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+  }
+  .grid--pricing {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid--team1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .profile {
+    padding: 0 10rem;
+  }
+  .logo-img img {
+    width: 16rem;
+  }
+  .team-comment {
+    font-size: 1.6rem;
+  }
+  .profile-pic img {
+    width: 8rem;
+    height: 8rem;
+  }
+  .profile-name {
+    font-size: 1.6rem;
+  }
+  .profile-job-title {
+    font-size: 1.4rem;
+  }
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid--footer {
+    grid-template-columns: 1fr 2fr;
+  }
+  .grid--options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*-************************-*/
+/* above 1024px (64em laptops) */
+/*-************************-*/
+@media (min-width: 64em) {
+  .container {
+    padding: 0 8.4rem;
+  }
+  .header {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+  .burger-btn {
+    display: none;
+  }
+  .nav ul {
+    display: flex;
+    gap: 3.2rem;
+  }
+  .cta-btn:link,
+  .cta-btn:visited {
+    display: block;
+  }
+  .section-hero {
+    padding: 6.4rem 0 9.6rem;
+  }
+  .hero-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+  .hero-text {
+    text-align: unset;
+  }
+  .btn-group {
+    justify-content: flex-start;
+  }
+  .primary-heading {
+    font-size: 3.8rem;
+  }
+  .features {
+    padding: 9.6rem 0;
+  }
+  .subheading {
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+  }
+  .secondary-heading {
+    font-size: 3rem;
+    line-height: 1.4;
+  }
+  .subheading-text {
+    font-size: 1.6rem;
+  }
+  .grid--features {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tertiary-heading {
+    font-size: 2.4rem;
+  }
+  .feature-description {
+    font-size: 1.5rem;
+  }
+  .grid--overview {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+  }
+  .section-overview {
+    padding: 9.6rem 0;
+  }
+  .section-prove {
+    padding: 9.6rem 0;
+  }
+  .section-pricing {
+    padding: 9.6rem 0;
+  }
+  .grid--pricing {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  .section-team-1 {
+    padding: 9.6rem 0;
+  }
+  .grid--team1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .section-team-2 {
+    background-color: #f9f9f9;
+    padding: 9.6rem 0;
+  }
+  .logo-img img {
+    width: 18rem;
+  }
+  .team-comment {
+    font-size: 2rem;
+  }
+  .section-install {
+    padding: 9.6rem 0;
+  }
+  .section-faq {
+    padding: 9.6rem 0;
+  }
+  .section-blog {
+    padding: 9.6rem 0;
+  }
+  .blog-content h4 {
+    font-size: 1.8rem;
+  }
+  .blog-text {
+    font-size: 1.4rem;
+  }
+  .writer-flex {
+    gap: 2rem;
+  }
+  .writer-name {
+    font-size: 1.4rem;
+  }
+  .date {
+    font-size: 1.2rem;
+  }
+  .post-time {
+    font-size: 1.2rem;
+  }
+  .date::after {
+    left: 78px;
+  }
+  .logos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid--options {
+    grid-template-columns: repeat(3, 1fr) auto;
+  }
+}
+
+/*-************************-*/
+/* above 1440px (90em large screens) */
+/*-************************-*/
+@media (min-width: 90em) {
+  .container {
+    padding: 0 12rem;
+  }
+  .primary-heading {
+    font-size: 4.2rem;
+  }
+  .hero-paragraph {
+    font-size: 1.6rem;
+  }
+  .link-hero span {
+    font-size: 1.8rem;
+  }
+  .link-hero ion-icon {
+    font-size: 1.8rem;
+  }
+  .subheading {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+  .secondary-heading {
+    font-size: 3.4rem;
+  }
+  .subheading-text {
+    font-size: 1.8rem;
+  }
+  .grid--features {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tertiary-heading {
+    font-size: 2.8rem;
+  }
+  .feature-description {
+    font-size: 1.8rem;
+  }
+  .logo-img img {
+    width: 22rem;
+  }
+  .team-comment {
+    font-size: 2.4rem;
+  }
+
+  .profile-name {
+    font-size: 1.8rem;
+  }
+  .profile-job-title {
+    font-size: 1.6rem;
+  }
+}
