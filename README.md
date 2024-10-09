@@ -16,4 +16,4 @@ Welcome to AppVilla! This project is a sleek and modern landing page designed wi
 - CSS3: For styling, animations, and responsiveness.
 - Media Queries: For adaptive layouts on various screen sizes.
 
-check the site [here](https://appvilla-landing-page-woad.vercel.app/)
+check the site [here](https://appvilla-landing-page-psi.vercel.app/)
